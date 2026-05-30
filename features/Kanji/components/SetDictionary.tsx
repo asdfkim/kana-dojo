@@ -137,7 +137,7 @@ const KanjiSetDictionary = memo(function KanjiSetDictionary({
                       )}
                       aria-label={`Play pronunciation for ${kanjiObj.kanjiChar} on'yomi ${pronunciation}`}
                     >
-                      <div className='flex items-center gap-2'>
+                      <div className='flex items-center gap-1.75 sm:gap-2'>
                         <span>
                           {showKana
                             ? pronunciation
@@ -211,7 +211,7 @@ const KanjiSetDictionary = memo(function KanjiSetDictionary({
                       )}
                       aria-label={`Play pronunciation for ${kanjiObj.kanjiChar} kun'yomi ${pronunciation}`}
                     >
-                      <div className='flex items-center gap-2'>
+                      <div className='flex items-center gap-1.75 sm:gap-2'>
                         <span>
                           {showKana
                             ? pronunciation

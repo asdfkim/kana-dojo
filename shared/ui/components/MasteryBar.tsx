@@ -17,7 +17,7 @@ const MasteryBar = ({
   percent,
   stars = 0,
   className,
-  height = 'h-9',
+  height = 'h-8',
   rounded = 'rounded-2xl',
 }: MasteryBarProps) => (
   <div className={cn('w-full', className)}>
